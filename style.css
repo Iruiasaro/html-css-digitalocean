@@ -1,0 +1,60 @@
+
+
+.down{
+    padding-top: 19px;
+}
+
+h2{
+    font-size: 33px;
+    padding: 10px 0;
+    font-family: 'Roboto Slab', serif;
+}
+    
+
+
+/* button */
+
+.white_button{
+    background-color: #fff;
+    color: blue;
+    border: 1px solid blue;
+    
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+}
+
+li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.nav_first .logo_nav img{
+    width: 150px;
+    padding: 25px 0;
+}
+
+.menu_central{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.right_menu{
+    text-align: right;
+}
+
+.menu_central i,
+.right_menu i{
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 992px){
+    .menu_central,
+    .right_menu{
+        display: none;
+    }
+}
