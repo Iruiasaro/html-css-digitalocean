@@ -98,5 +98,65 @@ li a{
 }
 
 .text_right_jumbo h4 {
-    color: rgb(33, 33, 228);
+    color: rgb(35, 35, 197);
 }
+
+/* sezione loghi */
+.logo_section{
+    background-color: #f3f5f9;
+}
+
+.logo_section .logo_text {
+    color: #6f7b97;
+    text-align: center;
+    padding-top: 18px;
+}
+    
+.logo_section .img_loghi li{
+    height: 150px;
+    margin: 10px 0;
+}
+
+.text_down_loghi a{
+    display: inline-block;
+    color: #006aff;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.logo_section .img_loghi img{
+    width: 100%;
+    height: 100%;
+}
+
+.text_down_loghi{
+    text-align: center;
+}
+
+.text_down_loghi i{
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 766px){
+    .logo_section .img_loghi li{
+        width: calc(100% / 6 - 20px);
+    }
+
+    .logo_section .img_loghi img{
+        width: 100%;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width: 990px){
+    .logo_section .img_loghi li{
+        width: calc(100% / 6 - 20px);
+    }
+
+    .logo_section .img_loghi img{
+        width: 100%;
+        margin-left: 60px;
+    }
+}
+
