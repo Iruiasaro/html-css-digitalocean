@@ -1,7 +1,6 @@
 /* header section */
 li{
     display: inline-block;
-    margin-right: 10px;
     list-style: none;
 }
 
@@ -19,11 +18,14 @@ li a{
     padding: 25px 0;
 }
 
-.white_button{
+.white_button {
+    margin: auto;
+    margin-left: 5px;
     background-color: #fff;
     color: rgb(22, 22, 228);
     border: 1px solid rgb(46, 46, 230);
 }
+
 .menu_central{
     margin-top: 10px;
     text-align: center;
@@ -160,3 +162,31 @@ li a{
     }
 }
 
+/* sezione deploy */
+.section_deploy{
+    background-color:white;
+    
+}
+
+.text_deploy{
+    text-align: center;
+}
+
+
+.section_deploy .text_deploy p{
+    color: #6f7b97;
+    padding: 10px 35px;
+
+}
+
+.section_deploy .sidebar_deploy ul{
+    position: relative;
+    margin-left: 40%;
+    
+}
+
+@media screen and (max-width: 767px){
+    .section_deploy .sidebar_deploy ul{
+        margin-left: 30px;
+    }
+}
