@@ -190,3 +190,39 @@ li a{
         margin-left: 30px;
     }
 }
+
+/* developers section */
+.section_develop{
+    background-color: #f3f5f9;
+}
+
+.text_develop p{
+    color: #6f7b97;
+    padding: 10px 35px;
+}
+
+.wrap-develop{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(3, 3, 94);
+
+}
+
+.wrap-develop i{
+    color: rgb(41, 41, 238);
+}
+
+.text_develop{
+    text-align: center;
+    padding: 25px 0;
+}
+
+.section_develop .wrap-develop p{
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.section_develop .wrap-develop img{
+    width: 100%;
+}
