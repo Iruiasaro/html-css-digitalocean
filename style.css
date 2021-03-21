@@ -1,4 +1,8 @@
 /* header section */
+.container {
+    width: 90%;
+}
+
 li{
     display: inline-block;
     list-style: none;
@@ -52,14 +56,15 @@ li a{
     background-image: url("../img/bg-banner-home.jpg");
 }
 
-.jumbo_section .right_jumbo{
-    margin: 20px auto;
+.jumbo_section .container .row {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .right_jumbo .text_right_jumbo{
     background-color: rgb(255, 255, 255);
     border-radius: 2%;
-    padding:10px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -96,7 +101,7 @@ li a{
 }
 
 .left_jumbo h1 {
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 .text_right_jumbo h4 {
@@ -209,20 +214,98 @@ li a{
 
 }
 
-.wrap-develop i{
-    color: rgb(41, 41, 238);
+
+/* business section */
+
+.section_business .wrap-deploy {
+    margin-bottom: 10px;
 }
 
-.text_develop{
-    text-align: center;
-    padding: 25px 0;
+.section_business{
+    background-color: #ffffff;
 }
 
-.section_develop .wrap-develop p{
-    margin-top: 15px;
-    margin-bottom: 45px;
+.section_business .wrap-deploy:last-of-type{
+    margin-bottom: 10px;
+}
+
+.section_business .wrap-deploy h4{
+    margin: 10px 0;
+}
+
+.section_business .wrap-deploy p{
+    margin-bottom: 10px;
+    color: #4d5b79;
 }
 
 .section_develop .wrap-develop img{
     width: 100%;
+}
+
+.section_business .wrap-deploy a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(15, 15, 230);
+}
+
+.text_develop {
+    text-align: center;
+    padding: 25px 0;
+}
+.wrap-develop i{
+    color: rgb(37, 37, 155);
+}
+
+.section_develop .wrap-develop p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* sezione regioni */
+
+.regions_section{
+    background-color: #0043c1;
+    text-align: center;
+}
+
+.regions_section .regions_title h2{
+    color: white;
+    padding-top: 10px;
+}
+
+.regions_section .cities{
+    margin: 20px 0;
+}
+
+.regions_section .cities h5,
+.regions_section .cities p,
+.regions_section .cities a{
+    display: inline-block;
+    margin: 15px 0;
+    color: rgb(255, 255, 255);
+}
+
+.regions_section .cities li{
+    display: block;
+}
+
+.regions_section .cities li:not(:last-of-type){
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.regions_section .cities h5{
+    width: 23%;
+}
+
+.regions_section .cities p{
+    text-align: left;
+    width: 50%;
+}
+
+.regions_section .cities a{
+    width: 25%;
+}
+
+.regions_section .cities a{
+    color: #0fc2bf;
 }
