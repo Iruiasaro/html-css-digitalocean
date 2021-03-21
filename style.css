@@ -23,10 +23,10 @@ li a{
 }
 
 .white_button {
-    margin: auto;
-    margin-left: 5px;
-    background-color: #fff;
     color: rgb(22, 22, 228);
+    background-color: #fff;
+    margin: auto;
+    margin-left: 8px;
     border: 1px solid rgb(46, 46, 230);
 }
 
@@ -41,7 +41,7 @@ li a{
 
 .menu_central i,
 .right_menu i {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 992px){
@@ -214,7 +214,6 @@ li a{
 
 }
 
-
 /* business section */
 
 .section_business .wrap-deploy {
@@ -230,7 +229,7 @@ li a{
 }
 
 .section_business .wrap-deploy h4{
-    margin: 10px 0;
+    margin: 12px 0;
 }
 
 .section_business .wrap-deploy p{
@@ -244,13 +243,13 @@ li a{
 
 .section_business .wrap-deploy a {
     display: inline-block;
-    text-decoration: none;
     color: rgb(15, 15, 230);
+    text-decoration: none;
 }
 
 .text_develop {
     text-align: center;
-    padding: 25px 0;
+    padding: 27px 0;
 }
 .wrap-develop i{
     color: rgb(37, 37, 155);
@@ -277,20 +276,8 @@ li a{
     margin: 20px 0;
 }
 
-.regions_section .cities h5,
-.regions_section .cities p,
-.regions_section .cities a{
-    display: inline-block;
-    margin: 15px 0;
-    color: rgb(255, 255, 255);
-}
-
 .regions_section .cities li{
     display: block;
-}
-
-.regions_section .cities li:not(:last-of-type){
-    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .regions_section .cities h5{
@@ -306,6 +293,128 @@ li a{
     width: 25%;
 }
 
+.regions_section .cities h5,
+.regions_section .cities p,
+.regions_section .cities a{
+    display: inline-block;
+    margin: 15px 0;
+    color: rgb(255, 255, 255);
+}
+
 .regions_section .cities a{
     color: #0fc2bf;
+}
+ /* footer  */
+
+.footer_background{
+    background-color: #031c4e;
+}
+
+.logo_footer{
+    color: #5a6887;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.logo_footer p:first-of-type{
+    color: #737f99;
+}
+
+.text_footer{
+    margin: 10px 0;
+    color: #455370;
+    display: block;
+    list-style: none;
+}
+   
+    
+.text_footer h3{
+    color: rgb(255, 255, 255);
+}
+
+/* media query */
+@media screen and (min-width: 769px){
+
+
+.logo_footer{
+        padding-left: 80px;
+    }
+}
+
+/* fixed button shark */
+
+.shark_fixed {
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+}
+
+.white_text {
+    color: rgb(255, 255, 255);
+}
+
+.text_blue {
+    color:rgb(0, 0, 58)
+}
+
+.shark_fixed .shark img {
+    width: 100%;
+}
+.shark_fixed .shark {
+    width: 60px;
+    padding: 5px 0;
+    border-radius: 6px;
+    background-color: rgb(21, 70, 168);
+    position: relative;
+    display: block;
+    margin-bottom: 18px;
+
+}
+
+.shark .alert {
+    background-color: rgb(255, 0, 0);
+    border-radius: 100px;
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    top: -12px;
+    right: -12px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.shark .alert span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rettangolo_bianco {
+    position: relative;
+    max-width: 320px;
+    display: inline-block;
+    margin: 0;
+    background-color: rgb(231, 231, 230);
+    padding: 8px;
+}
+
+.rettangolo_bianco p a:hover {
+    color: rgb(0, 0, 58);      
+}
+
+
+@media screen and (min-width: 992px) {
+    .shark_fixed {
+        right: 20px; 
+    }
+
+    .rettangolo_bianco {
+        margin-right: 15px;
+    }
+
+    .shark_fixed .shark,
+    .shark_fixed .rettangolo_bianco  {
+        float:right;
+        margin: 0;
+    }
 }
