@@ -167,27 +167,30 @@ li a{
     }
 }
 
-/* sezione deploy */
+/* deploy section */
+
 .section_deploy{
     background-color:white;
-    
 }
 
 .text_deploy{
     text-align: center;
+    color: #0b2353;
 }
-
 
 .section_deploy .text_deploy p{
     color: #6f7b97;
-    padding: 10px 35px;
-
+    font-size: 22px;
 }
 
 .section_deploy .sidebar_deploy ul{
     position: relative;
-    margin-left: 40%;
-    
+    margin-left: 150px;
+    color: #8a8e97;
+}
+
+.sidebar_deploy {
+    max-width: 100px;
 }
 
 @media screen and (max-width: 767px){
