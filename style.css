@@ -56,7 +56,7 @@ li a{
     background-image: url("../img/bg-banner-home.jpg");
 }
 
-.jumbo_section .container .row {
+.jumbo_section .container .box_deploy {
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -168,56 +168,67 @@ li a{
 }
 
 /* deploy section */
-
-.section_deploy{
+ 
+.deploy_section{
     background-color:white;
 }
 
-.text_deploy{
+.text_deploy h2{
+    padding-top: 30px;
     text-align: center;
-    color: #0b2353;
+    font-size: 50px;
 }
 
-.section_deploy .text_deploy p{
+.text_deploy p{
     color: #6f7b97;
-    font-size: 22px;
+    font-size: 28px;
+    padding: 20px 0;
+
 }
 
-.section_deploy .sidebar_deploy ul{
+.deploy_section .deploy_sidebar ul{
     position: relative;
-    margin-left: 150px;
-    color: #8a8e97;
+    margin-left: 30px;
 }
 
-.sidebar_deploy {
-    max-width: 100px;
-}
-
+/* media query */
 @media screen and (max-width: 767px){
-    .section_deploy .sidebar_deploy ul{
+
+    .deploy_section .deploy_sidebar ul{
         margin-left: 30px;
     }
 }
-
-/* developers section */
-.section_develop{
-    background-color: #f3f5f9;
+    
+.deploy_section .deploy_sidebar .sidebar li{
+    list-style: none;
+    display: block;
+    margin: 15px 0;
 }
 
-.text_develop p{
-    color: #6f7b97;
-    padding: 10px 35px;
+.deploy_section .deploy_sidebar .sidebar h4{
+    color: #75809a;
+    font-size: 20px;
 }
 
-.wrap-develop{
-    width: 60%;
-    text-align: center;
-    margin: 0 auto;
-    color: rgb(3, 3, 94);
+.deploy_section .deploy_sidebar .box_deploy{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    height: 200px;
+}
 
+.deploy_section .deploy_sidebar .box_deploy h4{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.deploy_section .deploy_sidebar .box_deploy p{
+    font-size: 14px;
 }
 
 /* business section */
+.section_develop {
+    background-color: #f3f5f9;
+}
 
 .section_business .wrap-deploy {
     margin-bottom: 10px;
@@ -228,7 +239,7 @@ li a{
 }
 
 .section_business .wrap-deploy:last-of-type{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .section_business .wrap-deploy h4{
@@ -236,12 +247,8 @@ li a{
 }
 
 .section_business .wrap-deploy p{
-    margin-bottom: 10px;
     color: #4d5b79;
-}
-
-.section_develop .wrap-develop img{
-    width: 100%;
+    margin-bottom: 10px;
 }
 
 .section_business .wrap-deploy a {
@@ -250,6 +257,9 @@ li a{
     text-decoration: none;
 }
 
+.section_develop .wrap-develop img{
+    width: 100%;
+}
 .text_develop {
     text-align: center;
     padding: 27px 0;
