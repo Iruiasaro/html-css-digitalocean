@@ -304,6 +304,67 @@ li a{
 .regions_section .cities a{
     color: #0fc2bf;
 }
+
+/* rocekrbox section */
+    .rockerbox_section{
+    background-color: #f3f5f9;
+    text-align: center;
+    color: rgb(3, 3, 94);
+}
+
+.content_rockerbox {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rockerbox_section .rockerbox{
+    background-color: white;
+    border-radius: 2%;
+}
+.rockerbox_section .rockerbox img{
+    width: 20%;
+    padding-top: 40px;
+}
+
+.rockerbox_section .rockerbox a{
+    color: blue;
+    text-decoration: none;
+}
+
+.rockerbox_section .rockerbox p{
+    color: #6f7b97;
+    padding: 10px 35px; 
+}
+
+.rockerbox_section .rockerbox .flow{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.content_rockerbox i:not(:first-of-type)  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+    /* creat account */
+.background_account{
+    background-color: #0034ae;
+    text-align: center;
+    min-height: 200px;
+    padding-top: 20px;
+}
+
+.background_account h2{
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.background_account  .btn.white_button{
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
  /* footer  */
 
 .footer_background{
