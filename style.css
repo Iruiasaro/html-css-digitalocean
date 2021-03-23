@@ -1,10 +1,10 @@
 /* hamburger menu */
 .hamburger-menu{
     text-align: right;
+    margin-top: 30px;
 }
 
 .nav_first i.ham{
-    padding-top: 30px;
     color: #3a8aff;
     font-size: 18px;
 }
@@ -36,6 +36,10 @@
 /* header section */
 .container {
     width: 90%;
+}
+
+.nav_first {
+    width: 100%;
 }
 
 li{
@@ -269,6 +273,9 @@ li a{
     margin-bottom: 10px;
 }
 
+.section_develop .wrap-develop {
+    text-align: center;
+}
 .section_business{
     background-color: #ffffff;
 }
@@ -334,11 +341,11 @@ li a{
 
 .regions_section .cities p{
     text-align: left;
-    width: 50%;
+    width: 45%;
 }
 
 .regions_section .cities a{
-    width: 25%;
+    width: %;
 }
 
 .regions_section .cities h5,
