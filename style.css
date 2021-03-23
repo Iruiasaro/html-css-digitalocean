@@ -299,6 +299,24 @@ li a{
     text-decoration: none;
 }
 
+/* arrow */
+.arrow-container,
+.img_container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.arrow-container {
+    font-size:40px;
+}
+
+.img_container {
+    width: calc(100% - 60px - 6px);
+}
+
+
+
+
 .section_develop .wrap-develop img{
     width: 100%;
 }
@@ -307,12 +325,24 @@ li a{
     padding: 27px 0;
 }
 .wrap-develop i{
-    color: rgb(37, 37, 155);
+    color: rgb(11, 11, 90);
 }
 
 .section_develop .wrap-develop p{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.text_develop_bottom {
+    text-align: center;
+}
+
+.text_develop_bottom p {
+    color: #021c4e;
+}
+
+.text_develop_bottom i {
+    color: #0569fc;
 }
 
 /* sezione regioni */
